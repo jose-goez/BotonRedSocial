@@ -1,0 +1,67 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+#cerrar {
+    display: none;
+}
+
+#menuRedes {
+    display: none;
+}
+
+a {
+    position: absolute;
+    transition: 0.5s;
+    animation: mover 3s;
+}
+
+#menuRedes a:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 7px black;
+    border-radius: 50%;
+}
+
+@keyframes mover {
+    0% {
+        /* transform: skew(60deg); */
+        transform: rotateX(90deg);
+    }
+}
+
+a:nth-child(1) {
+    top: 0%;
+    left: 60px;
+}
+
+a:nth-child(2) {
+    top: 40px;
+    left: 100px;
+}
+
+a:nth-child(3) {
+    top: 60px;
+    left: 60px;
+}
+
+a:nth-child(4) {
+    top: 100px;
+    left: 100px;
+}
+
+a:nth-child(5) {
+    top: 100px;
+    left: 20px;
+}
+
+a:nth-child(6) {
+    top: 50px;
+    left: 7px;
+}
